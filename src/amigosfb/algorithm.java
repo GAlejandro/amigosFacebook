@@ -102,12 +102,15 @@ public class algorithm {
     }
     
     void imprimirPersonas(int n){
+        System.out.println("--------------------------------------------------------------------------");
         if(n == 0){
+            System.out.println("A.Amigos en común");
             for(int i = 0; i< amigosf.size(); i++){
                 System.out.println(amigosf.get(i).getId());
             }
         }
         if(n == 1){
+            System.out.println("B. Personas que todos los conocen");
             for(int i = 0; i < amigosc.size(); i++){
                 System.out.println(amigosc.get(i).getId());
             }
