@@ -18,9 +18,9 @@ public class AmigosFb {
         algorithm a = new algorithm();
         
         
-        a.generarPersonas(10);
+        a.generarPersonas(100);
         a.generarAmigos();
-       // a.amigosComun();
+        a.amigosComun();
         a.amigosAll();
         
     }
